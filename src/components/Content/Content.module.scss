@@ -1,0 +1,15 @@
+._ {
+  padding: 30px 30px 30px 21px;
+  width: 100%;
+}
+.emptyBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 14px;
+    color: var(--color-text);
+  }
+}

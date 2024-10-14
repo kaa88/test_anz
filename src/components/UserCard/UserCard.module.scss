@@ -1,0 +1,44 @@
+._ {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 61px;
+}
+.image {
+  width: 100%;
+  min-width: 424px;
+  height: 286px;
+  border: solid 1px var(--color-borders);
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 130px;
+  }
+}
+.name {
+  font-weight: 600;
+  color: var(--color-text-accent);
+}
+.contact {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.contactTitle {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+.contactText {
+  margin-left: 10px;
+}
+.aboutTitle {
+  margin-top: 20px;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+.aboutWrapper {
+  margin-top: 25px;
+}
+.aboutText {
+  font-size: 14px;
+}

@@ -1,0 +1,59 @@
+$timer-hover: 0.1s;
+
+._ {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px transparent;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  transition: box-shadow $timer-hover;
+  &:hover,
+  &.active {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1),
+      inset 0 0 0 1px var(--color-borders-secondary);
+  }
+}
+.image {
+  flex: 0 0 70px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-right: solid 1px var(--color-borders-secondary);
+  img {
+    width: 30px;
+  }
+}
+.content {
+  flex: 1 1 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: background-color $timer-hover;
+  ._:hover &,
+  .active & {
+    background-color: var(--color-borders-secondary);
+  }
+  span {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+  }
+}
+.name,
+.email {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.name {
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+.email {
+  margin-top: 3px;
+}

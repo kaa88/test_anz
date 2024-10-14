@@ -1,0 +1,28 @@
+._ {
+  padding: 0 14px 0 20px; // right +16 (scrollbar)
+  border-right: solid 1px #dededd;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+  h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+  }
+  --search-height: 141px;
+}
+.search {
+  padding-top: 27px;
+  height: var(--search-height);
+}
+.input {
+  margin-top: 12px;
+}
+.result {
+  padding-bottom: 27px;
+  height: calc(100% - 37px - var(--search-height));
+}
+.resultList {
+  margin-top: 10px;
+}
