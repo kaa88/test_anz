@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test_anz/static/css/main.9a11b992.css",
+    "main.js": "/test_anz/static/js/main.a51bf4bd.js",
+    "index.html": "/test_anz/index.html",
+    "main.9a11b992.css.map": "/test_anz/static/css/main.9a11b992.css.map",
+    "main.a51bf4bd.js.map": "/test_anz/static/js/main.a51bf4bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a11b992.css",
+    "static/js/main.a51bf4bd.js"
+  ]
+}
